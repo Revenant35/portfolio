@@ -29,7 +29,7 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Deploy to S3
-        run: aws s3 sync ./dist/fitpal ${{ secrets.AWS_S3_BUCKET_PROD }} --delete
+        run: aws s3 sync ./dist/browser ${{ secrets.AWS_S3_BUCKET_PROD }} --delete
 
       - name: Clear Cache
         run: aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_CLOUDFRONT_CDN_PROD }} --paths '/*'

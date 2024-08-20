@@ -1,9 +1,26 @@
 @use '@angular/material' as mat;
+@use './m3-theme' as theme;
 
 @include mat.core();
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html {
+  @include mat.core-theme(theme.$dark-theme);
+  @include mat.all-component-themes(theme.$dark-theme);
+}
+
+@media(prefers-color-scheme: light) {
+  @include mat.core-color(theme.$light-theme);
+  @include mat.all-component-colors(theme.$light-theme);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
 
 :root {
   font-size: 1rem;

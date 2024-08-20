@@ -1,12 +1,18 @@
-/* footer section */
+
 footer {
   text-align: center;
+  padding-block: 2rem;
+}
+
+footer h2 {
+  font-size: 1.4rem;
+  margin: 0;
 }
 
 footer ul {
   list-style-type: none;
   padding: 0;
-  margin: 2rem 0;
+  margin: 1rem 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;

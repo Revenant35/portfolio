@@ -1,19 +1,5 @@
 @use '@angular/material' as mat;
 
-@mixin my-comp-theme($theme) {
-  :host {
-    font: mat.get-theme-typography($theme, body-large, font);
-    letter-spacing: mat.get-theme-typography($theme, body-large, letter-spacing);
-    background: mat.get-theme-color($theme, surface);
-    @if mat.get-theme-type($theme) == dark {
-      color: mat.get-theme-color($theme, primary, 20);
-    } @else {
-      color: mat.get-theme-color($theme, primary, 80);
-    }
-    padding: 48px + (2px * mat.get-theme-density($theme));
-  }
-}
-
 .title {
   display: flex;
   flex-direction: row;

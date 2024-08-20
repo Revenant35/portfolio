@@ -1,0 +1,18 @@
+
+:host {
+  display: block;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+mat-icon {
+  //transform: scale(4);
+  scale: 4;
+  fill: white;
+}

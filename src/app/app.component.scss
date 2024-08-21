@@ -23,7 +23,7 @@ p {
 }
 
 section {
-  //padding: 16px;
+  margin-block: 16px;
 }
 
 section > *:not(:first-child) {
@@ -49,4 +49,25 @@ section > *:not(:last-child) {
 .profile-picture {
   max-width: min(300px, 100%);
   max-height: min(300px, 100%);
+}
+
+.video-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  max-width: min(100%, 720px);
+}
+
+.taprx-image-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+
+  gap: 16px;
 }

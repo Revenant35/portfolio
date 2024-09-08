@@ -1,3 +1,7 @@
+@use '../../theme' as theme;
+@use '@angular/material' as mat;
+
+$primary-default: mat.get-theme-color(theme.$dark-theme, primary, default);
 
 :host {
   display: block;
@@ -39,6 +43,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  background-color: $primary-default;
 }
 
 

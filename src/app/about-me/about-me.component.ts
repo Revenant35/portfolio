@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {ResumeDownloadButtonComponent} from "../Buttons/resume-download-button/resume-download-button.component";
+import {ResumeDownloadButtonComponent} from "../buttons/resume-download-button/resume-download-button.component";
 import {GithubButtonComponent} from "../buttons/github-button/github-button.component";
 import {LinkedinButtonComponent} from "../buttons/linkedin-button/linkedin-button.component";
 

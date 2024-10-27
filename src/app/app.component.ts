@@ -4,7 +4,7 @@ import {FooterComponent} from "./footer/footer.component";
 import {ToolbarComponent} from "./toolbar/toolbar.component";
 import {TechnologiesCarouselComponent} from "./technologies-carousel/technologies-carousel.component";
 import {faFileDownload} from "@fortawesome/free-solid-svg-icons";
-import {ResumeDownloadButtonComponent} from "./Buttons/resume-download-button/resume-download-button.component";
+import {ResumeDownloadButtonComponent} from "./buttons/resume-download-button/resume-download-button.component";
 import {AboutMeComponent} from "./about-me/about-me.component";
 
 @Component({

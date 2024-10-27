@@ -6,15 +6,6 @@ main {
   overflow: auto;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 h1,
 h2,
 h3,
@@ -32,23 +23,6 @@ section > *:not(:first-child) {
 
 section > *:not(:last-child) {
   margin-bottom: 1rem;
-}
-
-.actions {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 16px;
-}
-
-.image-wrapper {
-  text-align: center;
-}
-
-.profile-picture {
-  max-width: min(300px, 100%);
-  max-height: min(300px, 100%);
 }
 
 .video-wrapper {

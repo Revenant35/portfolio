@@ -6,23 +6,12 @@ main {
   overflow: auto;
 }
 
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-}
-
 section {
-  margin-block: 16px;
+  margin-block: 48px;
 }
 
-section > *:not(:first-child) {
-  margin-top: 1rem;
-}
-
-section > *:not(:last-child) {
-  margin-bottom: 1rem;
+section > section {
+  margin-block: 32px;
 }
 
 .video-wrapper {

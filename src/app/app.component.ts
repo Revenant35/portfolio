@@ -6,11 +6,12 @@ import {TechnologiesCarouselComponent} from "./technologies-carousel/technologie
 import {faFileDownload} from "@fortawesome/free-solid-svg-icons";
 import {ResumeDownloadButtonComponent} from "./buttons/resume-download-button/resume-download-button.component";
 import {AboutMeComponent} from "./about-me/about-me.component";
+import {MatChip, MatChipSet} from "@angular/material/chips";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FooterComponent, ToolbarComponent, TechnologiesCarouselComponent, ResumeDownloadButtonComponent, AboutMeComponent],
+  imports: [RouterOutlet, FooterComponent, ToolbarComponent, TechnologiesCarouselComponent, ResumeDownloadButtonComponent, AboutMeComponent, MatChipSet, MatChip],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

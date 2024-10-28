@@ -8,6 +8,7 @@ $content-gap: 24px;
   display: flex;
   flex-direction: row;
   align-content: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
   gap: $content-gap;
 }
